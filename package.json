@@ -1,0 +1,31 @@
+{
+  "name": "pino-api",
+  "version": "1.0.0",
+  "description": "a web api for chords and scales",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tfilla1/pino.git"
+  },
+  "keywords": [
+    "chords",
+    "scales",
+    "pino"
+  ],
+  "author": "tfilla",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tfilla1/pino/issues"
+  },
+  "homepage": "https://github.com/tfilla1/pino#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.0",
+    "nodemon": "^3.1.7",
+    "typescript": "~5.1.6"
+  }
+}
